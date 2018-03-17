@@ -30,7 +30,7 @@ h3 {
 .container {
   width: 100vw;
   height: 100vh;
-  background: url("imgs/background.jpg") center;
+  background: url("imgs/background.jpg") 0 0/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@ h3 {
     .main-window__background {
       width: 650px;
       height: 500px;
-      background: url("imgs/background.jpg") center fixed;
+      background: url("imgs/background.jpg") 0 0/cover fixed;
       filter: blur(3px);
     }
     .main-window__side {
